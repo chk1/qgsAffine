@@ -1,5 +1,5 @@
 #!/bin/sh
 
-pyrcc4 -o resources.py resources.qrc
-pyuic4 -o ui.py ui.ui
-zip -r bitvolution.zip bitvolution -x *.git* TODO
+pyrcc4 -o qgsAffine/resources.py qgsAffine/resources.qrc
+pyuic4 -o qgsAffine/ui.py qgsAffine/ui.ui
+zip -r qgsAffine.zip qgsAffine
